@@ -10,18 +10,11 @@ vim.lsp.config("lua_ls", {
     }
   }
 })
-
-local ls_servers = {
-  "clangd",
-  "glsl_analyzer",
-}
-
-for _, server in ipairs(ls_servers) do
-  vim.lsp.config(server,{})
-  vim.lsp.enable(server)
-end
-
+vim.lsp.config("clangd",{})
+vim.lsp.config("glsl_analyzer",{})
 -- For non default or custimized lsp
 vim.lsp.enable({
   "lua_ls",
+  "clangd",
+  "glsl_analyzer",
 })

@@ -98,7 +98,6 @@ require("lualine").setup {
 
 require("gitsigns").setup({})
 
-require("mason").setup({})
 -- LSP, Linting, Formatting & completion
 
 local function lsp_on_attach(ev)
