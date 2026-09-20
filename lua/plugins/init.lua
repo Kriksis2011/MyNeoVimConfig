@@ -1,8 +1,8 @@
 -- Idk I'm gonna add stuff here later lol
 
---require("plugins.cmakeintegration")
-
+require("plugins.treesitter")
 require("plugins.mason")
-require("plugins.toggleterm")
+require("plugins.nvim-tree")
 require("plugins.cmake-tools")
-print("FUck off")
+require("plugins.toggleterm")
+require("plugins.fzf")

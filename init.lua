@@ -19,7 +19,7 @@ vim.pack.add({
   "https://github.com/nvim-lua/plenary.nvim",
 })
 
--- Lsp pack add
+-- Lsp & formating & linting
 
 vim.pack.add({
   "https://github.com/neovim/nvim-lspconfig",
@@ -28,6 +28,7 @@ vim.pack.add({
     src = "https://github.com/saghen/blink.cmp",
     version = vim.version.range("1.*")
   },
+  "https://github.com/creativenull/efmls-configs-nvim",
 })
 
 require("config")
