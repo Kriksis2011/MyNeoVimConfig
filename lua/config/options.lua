@@ -3,6 +3,8 @@ vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.wrap = false
 
+vim.opt.mouse = ""
+
 vim.opt.tabstop = 2 -- tabwidth
 vim.opt.expandtab = true -- uses space instead of tabs
 
